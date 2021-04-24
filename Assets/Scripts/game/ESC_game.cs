@@ -16,6 +16,7 @@ public class ESC_game : MonoBehaviour
         audio = GS_Music.GetComponent<AudioSource>();
         cs_music = GS_Music.GetComponent<music>();
         cs_tw = UI_ESC_Text_.GetComponent<text_writer>();
+        Cursor.visible = false;
     }
     void Update()
     {
@@ -36,6 +37,7 @@ public class ESC_game : MonoBehaviour
         currentT = audio.time;
         if(cs_music.on)audio.Stop();
         key = false;
+        Cursor.visible = true;
     }
     public void resume(){
         UI_ESC.SetActive(false);
@@ -43,6 +45,7 @@ public class ESC_game : MonoBehaviour
         audio.time = currentT;
         if(cs_music.on)audio.Play();
         key = true;
+        Cursor.visible = false;
     }
     public void to_menu(){
         Time.timeScale = 1;
@@ -50,6 +53,7 @@ public class ESC_game : MonoBehaviour
     }
     public void restart(){
         Time.timeScale = 1;
+        Cursor.visible = false;
         SceneManager.LoadScene("game_demo");
     }
 }

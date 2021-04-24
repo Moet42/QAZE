@@ -198,6 +198,9 @@ public class Referee : MonoBehaviour
     public void combo_0(){
         combo = 0;
     } 
+    public void miss_inc(){
+        miss++;
+    }
     public static int get_highcombo(){
         return HighCombo;
 	}

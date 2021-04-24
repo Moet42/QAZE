@@ -15,6 +15,7 @@ public class pass : MonoBehaviour
         if(col.gameObject.tag=="center"){
             cs_referee.JudgTextSwitch(2);//miss
             cs_referee.combo_0();
+            cs_referee.miss_inc();
             UI_score.text = "";
             Destroy(col.gameObject);
         }
