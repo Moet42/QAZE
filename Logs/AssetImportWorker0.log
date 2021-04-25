@@ -235,3 +235,35 @@ Received Import Request.
 Start importing Assets/Scripts/Start/ESC.cs using Guid(6094d0131a3204f408fc3de0103d68a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ad63e8d24633f2d9f354a52b4b116f4') in 0.018948 seconds
   Import took 0.022004 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006988 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.754 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2113 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 113.1 MB.
+System memory in use after: 113.2 MB.
+
+Unloading 32 unused Assets to reduce memory usage. Loaded Objects now: 2623.
+Total: 2.122000 ms (FindLiveObjects: 0.218000 ms CreateObjectMapping: 0.062100 ms MarkObjects: 1.815900 ms  DeleteObjects: 0.024900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 493.111110 seconds.
+  path: Assets/Scripts/Start/ESC.cs
+  artifactKey: Guid(6094d0131a3204f408fc3de0103d68a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Start/ESC.cs using Guid(6094d0131a3204f408fc3de0103d68a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ade6d700ad97797a48e0a8357f3d8fb3') in 0.004648 seconds
+  Import took 0.007514 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
