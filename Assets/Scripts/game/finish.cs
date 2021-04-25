@@ -18,6 +18,7 @@ public class finish : MonoBehaviour
         time = Time.timeSinceLevelLoad;
         if( time >= (cs_music.musicLong_seconds+5f) ){
             played = true;
+            Cursor.visible = true;
             SceneManager.LoadScene("QAZE");
         }
     }
