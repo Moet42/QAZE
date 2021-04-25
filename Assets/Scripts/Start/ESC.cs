@@ -31,4 +31,4 @@ public class ESC : MonoBehaviour
     }
 }
 
-//アヒョコメント追加したお（Moet42）
+//add comment（Moet42）
